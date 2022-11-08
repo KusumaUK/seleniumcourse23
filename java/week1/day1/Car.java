@@ -4,7 +4,7 @@ public class Car {
 	
     public void driveCar()
     {
-    	System.out.println("i am driving a car");
+    	System.out.println("i am driving a super car");
     }
     public void applyBrake()
     {
