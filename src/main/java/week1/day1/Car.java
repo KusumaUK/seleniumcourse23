@@ -23,6 +23,7 @@ public class Car {
 		System.out.println(carPrice);
 		System.out.println(kmsRan);
 		System.out.println(fuelCapacity);
+		System.out.println("hi");
 		}
 
 	}
