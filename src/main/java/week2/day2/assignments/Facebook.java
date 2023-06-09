@@ -1,4 +1,4 @@
-package week2.day2.Assignments;
+package week2.day2.assignments;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;

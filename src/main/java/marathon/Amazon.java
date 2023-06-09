@@ -1,4 +1,4 @@
-package Selenium.Marathon;
+package marathon;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
