@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="LeafTaps Suite">
+  <test name="RegTest"  parallel="classes">
+	 <!--executing the classes parallely--> 
+    <classes>
+      <class name="testcase.CreateLead"/>
+      <class name="week4.day1.LearnAlert"/>
+    </classes>
+    </test> 
+  
+</suite> <!-- Suite -->

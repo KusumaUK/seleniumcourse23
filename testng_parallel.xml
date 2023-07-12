@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="LeafTaps Suite" parallel="tests">
+  <test name="Leads Test">
+    <classes><!---tests will be parallel and the classes will be seq-->
+      <class name="testcase.DeleteLead"/>
+      <class name="testcase.CreateLead"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="AlertTestcase">
+	  <classes>
+		  <class name="week4.day1.LearnAlert"/>
+	  </classes>
+  </test>
+</suite> <!-- Suite -->
